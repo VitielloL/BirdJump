@@ -23,7 +23,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HeaderComponent } from './components/templates/header/header.component';
 import { FooterComponent } from './components/templates/footer/footer.component';
 import { InicioComponent } from './components/views/inicio/inicio.component';
-import { EscolhaComponent } from './components/views/escolha/escolha.component';
+import { FlapComponent } from './components/views/flap/flap.component';
+import { CacauComponent } from './components/views/cacau/cacau.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { EscolhaComponent } from './components/views/escolha/escolha.component';
     HeaderComponent,
     FooterComponent,
     InicioComponent,
-    EscolhaComponent,
+    FlapComponent,
+    CacauComponent,
   ],
   imports: [
     BrowserModule,

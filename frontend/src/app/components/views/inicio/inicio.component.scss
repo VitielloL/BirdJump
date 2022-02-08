@@ -1,1 +1,32 @@
+.wrap {
+  display: flex;
+  justify-content: space-evenly;
+  vertical-align: center;
+  margin-top: 7%;
 
+  .wrapB {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    height: 100px;
+    width: 150px;
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+    border-radius: 15px;
+    border-style: 1px solid;
+    font-family: "Festive", cursive;
+    font-family: "Pacifico", cursive;
+  }
+}
+
+.cacau {
+  width: 100px;
+}
+
+.ave {
+  width: 100px;
+}
