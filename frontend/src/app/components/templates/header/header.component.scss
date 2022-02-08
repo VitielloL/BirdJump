@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    text-align: center;
+    // font-family: "Sansita Swashed";
+    font-family: "Festive", cursive;
+    font-family: "Pacifico", cursive;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    padding: 5px 0px 2px 0px;
+    // text-transform: uppercase;
+  }
+}
