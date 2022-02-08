@@ -23,6 +23,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HeaderComponent } from './components/templates/header/header.component';
 import { FooterComponent } from './components/templates/footer/footer.component';
 import { InicioComponent } from './components/views/inicio/inicio.component';
+import { EscolhaComponent } from './components/views/escolha/escolha.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { InicioComponent } from './components/views/inicio/inicio.component';
     HeaderComponent,
     FooterComponent,
     InicioComponent,
+    EscolhaComponent,
   ],
   imports: [
     BrowserModule,
